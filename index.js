@@ -1,4 +1,3 @@
-var Swarm = require('discovery-swarm')
 var extend = require('xtend')
 
 var DAT_DOMAIN = 'dat.local'
@@ -18,12 +17,9 @@ var DEFAULT_OPTS = {
   dht: {bootstrap: DEFAULT_BOOTSTRAP}
 }
 
-module.exports = DatSwarm
-
-function DatSwarm (opts) {
-  if (!(this instanceof DatSwarm)) return new DatSwarm(opts)
+module.exports = function DatSwarmConfig (opts) {
+  if (!(this instanceof DatSwarmConfig)) return new DatSwarmConfig(opts)
 
   opts = opts || {}
-  opts = extend(DEFAULT_OPTS, opts) // opts takes priority
-  return new Swarm(opts)
+  return extend(DEFAULT_OPTS, opts) // opts takes priority
 }
