@@ -17,9 +17,6 @@ var DEFAULT_OPTS = {
   dht: {bootstrap: DEFAULT_BOOTSTRAP}
 }
 
-module.exports = function DatSwarmConfig (opts) {
-  if (!(this instanceof DatSwarmConfig)) return new DatSwarmConfig(opts)
-
-  opts = opts || {}
+module.exports = function (opts) {
   return extend(DEFAULT_OPTS, opts) // opts takes priority
 }
