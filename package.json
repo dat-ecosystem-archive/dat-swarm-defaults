@@ -1,6 +1,6 @@
 {
   "name": "datland-swarm-defaults",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dat Defaults for Discovery Swarm",
   "main": "index.js",
   "scripts": {
