@@ -12,7 +12,7 @@ test('two swarms connect and exchange data with defaults', function (t) {
     connection.on('data', function (data) {
       a.destroy()
       b.destroy()
-      t.same(data, Buffer('hello'))
+      t.same(data, Buffer.from('hello'))
       t.end()
     })
   })
