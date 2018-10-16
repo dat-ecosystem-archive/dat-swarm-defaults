@@ -1,5 +1,3 @@
-var extend = require('xtend')
-
 var DAT_DOMAIN = 'dat.local'
 var DEFAULT_DISCOVERY = [
   'discovery1.datprotocol.com',
@@ -18,5 +16,5 @@ var DEFAULT_OPTS = {
 }
 
 module.exports = function (opts) {
-  return extend(DEFAULT_OPTS, opts) // opts takes priority
+  return Object.assign({}, DEFAULT_OPTS, opts) // opts takes priority
 }

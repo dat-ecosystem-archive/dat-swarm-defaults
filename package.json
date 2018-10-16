@@ -12,9 +12,6 @@
   ],
   "author": "Joe Hand <joe@joeahand.com> (http://joeahand.com/)",
   "license": "MIT",
-  "dependencies": {
-    "xtend": "^4.0.1"
-  },
   "devDependencies": {
     "discovery-swarm": "^3.1.2",
     "standard": "*",
