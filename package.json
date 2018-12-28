@@ -4,26 +4,25 @@
   "description": "Dat Defaults for Discovery Swarm",
   "main": "index.js",
   "scripts": {
-    "test": "standard && tape test.js | tap-spec"
+    "test": "standard && tape test.js"
   },
   "keywords": [
     "dat",
     "hyperdrive"
   ],
-  "author": "Joe Hand <joe@joeahand.com> (http://joeahand.com/)",
+  "author": "Dat Project Contributors",
   "license": "MIT",
   "devDependencies": {
-    "discovery-swarm": "^3.1.2",
+    "discovery-swarm": "^5.1.3",
     "standard": "*",
-    "tap-spec": "^4.1.1",
     "tape": "^4.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joehand/datland-swarm-defaults.git"
+    "url": "git+https://github.com/datproject/dat-swarm-defaults.git"
   },
   "bugs": {
-    "url": "https://github.com/joehand/datland-swarm-defaults/issues"
+    "url": "https://github.com/datproject/dat-swarm-defaults/issues"
   },
-  "homepage": "https://github.com/joehand/datland-swarm-defaults#readme"
+  "homepage": "https://github.com/datproject/dat-swarm-defaults#readme"
 }
