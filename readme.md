@@ -6,6 +6,10 @@
 
 Use Dat defaults for `dns` and `dht` servers in [hyperdiscovery](https://github.com/karissa/hyperdiscovery) or [discovery-swarm](https://github.com/mafintosh/discovery-swarm). The *dns* and *dht* servers are used to discover other peers.
 
+### Using Other Discovery Servers
+
+Run discovery servers with [dns-discovery](https://github.com/mafintosh/dns-discovery#cli) or a [bittorrent-dht](https://github.com/webtorrent/bittorrent-dht) server (such as https://github.com/hyperswarm/dht).
+
 ## Usage 
 
 Create a config object and pass it to discovery swarm. 
