@@ -1,6 +1,6 @@
 {
   "name": "dat-swarm-defaults",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dat Defaults for Discovery Swarm",
   "main": "index.js",
   "scripts": {
