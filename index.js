@@ -11,8 +11,8 @@ var DEFAULT_BOOTSTRAP = [
 ]
 
 var DEFAULT_OPTS = {
-  dns: {server: DEFAULT_DISCOVERY, domain: DAT_DOMAIN},
-  dht: {bootstrap: DEFAULT_BOOTSTRAP}
+  dns: { server: DEFAULT_DISCOVERY, domain: DAT_DOMAIN },
+  dht: { bootstrap: DEFAULT_BOOTSTRAP }
 }
 
 module.exports = function (opts) {
